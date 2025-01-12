@@ -1,5 +1,10 @@
 // q43: Lambda expression
+<<<<<<< HEAD:OldSyllabus/q43.java
 package OldSyllabus;
+=======
+package riyab;
+// take user input if required
+>>>>>>> 21db775 (Package Change In Rest...):q43.java
 
 import java.util.ArrayList;
 

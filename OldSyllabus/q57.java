@@ -1,5 +1,10 @@
 // q57: Use yield() function with threads
+<<<<<<< HEAD:OldSyllabus/q57.java
 package OldSyllabus;
+=======
+package riyab;
+// take user input if required
+>>>>>>> 21db775 (Package Change In Rest...):q57.java
 
 class MyYieldThread extends Thread {
     public void run() {

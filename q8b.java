@@ -1,5 +1,6 @@
 // q34: NumberFormatException
-package it201;
+package riyab;
+// take user input if required
 
 public class q8b {
     public static void main(String[] args) {

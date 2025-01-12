@@ -1,5 +1,6 @@
 // q40: throws keyword
-package it201;
+package riyab;
+// take user input if required
 
 public class q9d {
     public static void main(String[] args) throws Exception {

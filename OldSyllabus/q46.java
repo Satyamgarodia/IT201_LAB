@@ -1,5 +1,10 @@
 // q46: Constructor overloading
+<<<<<<< HEAD:OldSyllabus/q46.java
 package OldSyllabus;
+=======
+package riyab;
+// take user input if required
+>>>>>>> 21db775 (Package Change In Rest...):q46.java
 
 class Demo {
     Demo() {

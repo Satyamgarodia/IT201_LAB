@@ -1,5 +1,6 @@
 // q31: Programs based on Class StringBuffer
-package it201;
+package riyab;
+// take user input if required
 
 public class q6b {
     public static void main(String[] args) {

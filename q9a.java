@@ -1,5 +1,6 @@
 // q37: Multiple catch blocks
-package it201;
+package riyab;
+// take user input if required
 
 public class q9a {
     public static void main(String[] args) {

@@ -1,5 +1,6 @@
 // q38: throw keyword
-package it201;
+package riyab;
+// take user input if required
 
 public class q9b {
     public static void main(String[] args) {

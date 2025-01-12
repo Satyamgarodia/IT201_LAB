@@ -1,5 +1,10 @@
 // q58: Use sleep() function with threads
+<<<<<<< HEAD:OldSyllabus/q58.java
 package OldSyllabus;
+=======
+package riyab;
+// take user input if required
+>>>>>>> 21db775 (Package Change In Rest...):q58.java
 
 class MySleepThread extends Thread {
     public void run() {

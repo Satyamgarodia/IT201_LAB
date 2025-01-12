@@ -1,5 +1,10 @@
 // q61: Prioritize threads
+<<<<<<< HEAD:OldSyllabus/q61.java
 package OldSyllabus;
+=======
+package riyab;
+// take user input if required
+>>>>>>> 21db775 (Package Change In Rest...):q61.java
 
 class PriorityThread extends Thread {
     public PriorityThread(String name) {

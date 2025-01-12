@@ -1,4 +1,5 @@
-package it201;
+package riyab;
+// take user input if required
 
 public class q5a {
     static int[] getArray() {
