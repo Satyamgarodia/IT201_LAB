@@ -1,5 +1,6 @@
 // q43: Lambda expression
-package it201;
+package riyab;
+// take user input if required
 
 import java.util.ArrayList;
 

@@ -1,5 +1,6 @@
 // q35: ArrayIndexOutOfBoundsException
-package it201;
+package riyab;
+// take user input if required
 
 public class q35 {
     public static void main(String[] args) {

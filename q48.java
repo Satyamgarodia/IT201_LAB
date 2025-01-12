@@ -1,5 +1,6 @@
 // q48: Copy constructor effect without constructors
-package it201;
+package riyab;
+// take user input if required
 
 class Demo {
     int x;

@@ -1,5 +1,6 @@
 // q58: Use sleep() function with threads
-package it201;
+package riyab;
+// take user input if required
 
 class MySleepThread extends Thread {
     public void run() {

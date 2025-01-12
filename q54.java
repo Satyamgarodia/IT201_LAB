@@ -1,5 +1,6 @@
 // q54: Create file using FileOutputStream and enter byte data
-package it201;
+package riyab;
+// take user input if required
 
 import java.io.FileOutputStream;
 import java.io.IOException;

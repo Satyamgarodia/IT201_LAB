@@ -1,5 +1,6 @@
 // q42: Custom exception
-package it201;
+package riyab;
+// take user input if required
 
 class CustomException extends Exception {
     public CustomException(String message) {

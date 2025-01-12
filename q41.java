@@ -1,5 +1,6 @@
 // q41: Runtime polymorphism
-package it201;
+package riyab;
+// take user input if required
 
 class Parent {
     void display() {

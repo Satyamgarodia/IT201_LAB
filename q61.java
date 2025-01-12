@@ -1,5 +1,6 @@
 // q61: Prioritize threads
-package it201;
+package riyab;
+// take user input if required
 
 class PriorityThread extends Thread {
     public PriorityThread(String name) {

@@ -1,5 +1,6 @@
 // q32: ArrayList operations
-package it201;
+package riyab;
+// take user input if required
 
 import java.util.ArrayList;
 

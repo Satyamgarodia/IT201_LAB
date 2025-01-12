@@ -1,5 +1,6 @@
 // q56: Open file using FileInputStream and display content
-package it201;
+package riyab;
+// take user input if required
 
 import java.io.FileInputStream;
 import java.io.IOException;

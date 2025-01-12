@@ -1,5 +1,6 @@
 // q60: Create multiple threads that perform different tasks
-package it201;
+package riyab;
+// take user input if required
 
 class Task1 extends Thread {
     public void run() {

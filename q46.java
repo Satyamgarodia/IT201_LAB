@@ -1,5 +1,6 @@
 // q46: Constructor overloading
-package it201;
+package riyab;
+// take user input if required
 
 class Demo {
     Demo() {

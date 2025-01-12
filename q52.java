@@ -1,5 +1,6 @@
 // q52: Create thread by extending Thread class
-package it201;
+package riyab;
+// take user input if required
 
 class MyThread extends Thread {
     public void run() {

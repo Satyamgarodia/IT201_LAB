@@ -1,5 +1,6 @@
 // q33: ArithmeticException
-package it201;
+package riyab;
+// take user input if required
 
 public class q33 {
     public static void main(String[] args) {

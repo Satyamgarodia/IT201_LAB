@@ -1,5 +1,6 @@
 // q59: Use join() function with threads
-package it201;
+package riyab;
+// take user input if required
 
 class MyJoinThread extends Thread {
     public void run() {

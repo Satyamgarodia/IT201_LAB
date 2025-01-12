@@ -1,5 +1,6 @@
 // q51: Immutable class
-package it201;
+package riyab;
+// take user input if required
 
 final class Immutable {
     private final String value;

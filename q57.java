@@ -1,5 +1,6 @@
 // q57: Use yield() function with threads
-package it201;
+package riyab;
+// take user input if required
 
 class MyYieldThread extends Thread {
     public void run() {

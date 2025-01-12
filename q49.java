@@ -1,5 +1,6 @@
 // q49: Use of super keyword
-package it201;
+package riyab;
+// take user input if required
 
 class Parent {
     void display() {

@@ -1,5 +1,6 @@
 // q39: Nested try blocks
-package it201;
+package riyab;
+// take user input if required
 
 public class q39 {
     public static void main(String[] args) {
