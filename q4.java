@@ -1,8 +1,12 @@
-package it201;
+package riyab;
+
+import java.util.Scanner;
 
 public class q4 {
     public static void main(String[] args) {
-        char ch = 'a';
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a character: ");
+        char ch = scanner.next().charAt(0);
 
         if (Character.isLetter(ch)) {
             switch (Character.toLowerCase(ch)) {
@@ -19,5 +23,6 @@ public class q4 {
         } else {
             System.out.println("Error: Input is not a valid character.");
         }
+        scanner.close();
     }
 }

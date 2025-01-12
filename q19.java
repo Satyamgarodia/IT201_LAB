@@ -1,4 +1,6 @@
-package it201;
+package riyab;
+
+// take user input if required
 
 interface Interface1 {
     void method1();
@@ -21,6 +23,7 @@ class MultipleInheritanceClass implements Interface1, Interface2 {
 public class q19 {
     public static void main(String[] args) {
         MultipleInheritanceClass obj = new MultipleInheritanceClass();
+        System.out.println("Demonstrating Multiple Inheritance:");
         obj.method1();
         obj.method2();
     }

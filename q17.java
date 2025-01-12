@@ -1,31 +1,35 @@
-package it201;
+package riyab;
 
 public class q17 {
-    public static class Animal {
+    public static abstract class Animal {
         public void eat() {
             System.out.println("This animal eats food.");
         }
+
+        public abstract void makeSound();
     }
 
     public static class Dog extends Animal {
-        public void bark() {
+        @Override
+        public void makeSound() {
             System.out.println("The dog barks.");
         }
     }
 
     public static class Cat extends Animal {
-        public void meow() {
+        @Override
+        public void makeSound() {
             System.out.println("The cat meows.");
         }
     }
 
     public static void main(String[] args) {
-        Dog dog = new Dog();
+        Animal dog = new Dog();
         dog.eat();
-        dog.bark();
+        dog.makeSound();
 
-        Cat cat = new Cat();
+        Animal cat = new Cat();
         cat.eat();
-        cat.meow();
+        cat.makeSound();
     }
 }

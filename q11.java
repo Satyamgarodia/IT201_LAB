@@ -1,16 +1,27 @@
-package it201;
+package riyab;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class q11 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter first number: ");
-        int num1 = sc.nextInt();
-        System.out.print("Enter second number: ");
-        int num2 = sc.nextInt();
+        int num1 = getNumberInput(sc, "Enter first number: ");
+        int num2 = getNumberInput(sc, "Enter second number: ");
 
-        int greater = (num1 > num2) ? num1 : num2;
+        int greater = Math.max(num1, num2);
         System.out.println("Greater number is: " + greater);
+    }
+
+    private static int getNumberInput(Scanner sc, String prompt) {
+        while (true) {
+            try {
+                System.out.print(prompt);
+                return sc.nextInt();
+            } catch (InputMismatchException e) {
+                System.out.println("Invalid input. Please enter a number.");
+                sc.next(); // Clear invalid input
+            }
+        }
     }
 }

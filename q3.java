@@ -1,8 +1,13 @@
-package it201;
+package riyab;
+
+import java.util.Scanner;
 
 public class q3 {
     public static void main(String[] args) {
-        int num = 5;
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = scanner.nextInt();
+        scanner.close();
 
         if (num % 2 == 0) {
             System.out.println(num + " is an even number.");

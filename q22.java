@@ -1,8 +1,14 @@
-package it201;
+package riyab;
+
+import java.util.Scanner;
 
 public class q22 {
     public static void main(String[] args) {
-        final int constantValue = 100;
-        System.out.println("The final variable value is: " + constantValue);
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter a value: ");
+        int userInput = scanner.nextInt();
+        final int constantValue = userInput;
+        System.out.print("The final variable value is: " + constantValue);
+        scanner.close();
     }
 }
