@@ -2,19 +2,17 @@ package riyab;
 
 import java.util.Scanner;
 
-public class q10 {
+public class q3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int num = scanner.nextInt();
         scanner.close();
 
-        System.out.println("Initial value: " + num);
-
-        num++;
-        System.out.println("After increment: " + num);
-
-        num--;
-        System.out.println("After decrement: " + num);
+        if (num % 2 == 0) {
+            System.out.println(num + " is an even number.");
+        } else {
+            System.out.println(num + " is an odd number.");
+        }
     }
 }

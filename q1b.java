@@ -1,4 +1,4 @@
-package it201;
+package riyab;
 
 public class q1b {
     public static class Parent {
@@ -10,6 +10,7 @@ public class q1b {
     public static class Child extends Parent {
         @Override
         public void display() {
+            super.display();
             System.out.println("This is the child class.");
         }
     }
@@ -19,6 +20,5 @@ public class q1b {
         obj.display();
         Parent obj1 = new Parent();
         obj1.display();
-
     }
 }

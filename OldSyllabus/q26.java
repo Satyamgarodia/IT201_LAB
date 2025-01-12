@@ -1,4 +1,4 @@
-package OldSyllabus;
+package riyab;
 
 import java.util.Scanner;
 
@@ -8,6 +8,11 @@ public class q26 {
 
         System.out.print("Enter the size of the matrices (rows and columns): ");
         int rows = sc.nextInt(), cols = sc.nextInt();
+
+        if (rows <= 0 || cols <= 0) {
+            System.out.println("Invalid matrix size. Please enter positive integers.");
+            return;
+        }
 
         int[][] matrix1 = new int[rows][cols], matrix2 = new int[rows][cols], result = new int[rows][cols];
 
@@ -23,6 +28,11 @@ public class q26 {
             for (int j = 0; j < cols; j++) {
                 matrix2[i][j] = sc.nextInt();
             }
+        }
+
+        if (matrix1[0].length != matrix2.length) {
+            System.out.println("Matrices cannot be multiplied. Please check the dimensions.");
+            return;
         }
 
         System.out.println("Multiplying matrices...");

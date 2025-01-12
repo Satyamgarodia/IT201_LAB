@@ -1,4 +1,4 @@
-package it201;
+package riyab;
 
 class BaseClass {
     final void display() {
@@ -7,12 +7,15 @@ class BaseClass {
 }
 
 class DerivedClass extends BaseClass {
-    // Cannot override final method
+    void displayDerived() {
+        System.out.println("This is a method in the derived class.");
+        display();
+    }
 }
 
 public class q4b {
     public static void main(String[] args) {
         DerivedClass obj = new DerivedClass();
-        obj.display();
+        obj.displayDerived();
     }
 }
