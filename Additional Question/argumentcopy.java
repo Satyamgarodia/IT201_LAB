@@ -12,7 +12,7 @@ public class argumentcopy {
             br.close();
             fr.close();
             fw.close();
-            System.out.println("Copied Successfully!");
+            System.out.println("[+] Copied Successfully!");
         } catch (Exception e) {
             System.out.println(e);
         }
