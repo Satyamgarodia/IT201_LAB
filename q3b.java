@@ -18,7 +18,7 @@ class TwoWheeler implements MotorBike, Cycle {
     }
 }
 
-public class q21 {
+public class q3b {
     public static void main(String[] args) {
         TwoWheeler obj = new TwoWheeler();
         obj.displaySpeed();

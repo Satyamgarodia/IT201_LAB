@@ -1,6 +1,6 @@
 package it201;
 
-public class q13 {
+public class q1a {
     public static class Calculator {
         public int add(int a, int b) {
             return a + b;

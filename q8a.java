@@ -1,7 +1,7 @@
 // q33: ArithmeticException
 package it201;
 
-public class q33 {
+public class q8a {
     public static void main(String[] args) {
         try {
             int result = 10 / 0;

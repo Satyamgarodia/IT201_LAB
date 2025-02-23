@@ -1,8 +1,8 @@
 package it201;
 
-public class q28 {
+public class q5a {
     static int[] getArray() {
-        return new int[]{10, 20, 30, 40, 50};
+        return new int[] { 10, 20, 30, 40, 50 };
     }
 
     public static void main(String[] args) {

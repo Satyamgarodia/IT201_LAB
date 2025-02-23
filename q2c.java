@@ -1,6 +1,6 @@
 package it201;
 
-public class q17 {
+public class q2c {
     public static class Animal {
         public void eat() {
             System.out.println("This animal eats food.");

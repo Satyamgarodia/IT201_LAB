@@ -1,6 +1,6 @@
 package it201;
 
-public class q14 {
+public class q1b {
     public static class Parent {
         public void display() {
             System.out.println("This is the parent class.");
@@ -19,6 +19,6 @@ public class q14 {
         obj.display();
         Parent obj1 = new Parent();
         obj1.display();
-        
+
     }
 }

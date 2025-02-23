@@ -1,5 +1,4 @@
 // q42: Custom exception
-package it201;
 
 class CustomException extends Exception {
     public CustomException(String message) {
@@ -7,7 +6,7 @@ class CustomException extends Exception {
     }
 }
 
-public class q42 {
+public class q10 {
     public static void main(String[] args) {
         try {
             throw new CustomException("Custom exception occurred.");

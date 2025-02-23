@@ -18,7 +18,7 @@ class MultipleInheritanceClass implements Interface1, Interface2 {
     }
 }
 
-public class q19 {
+public class q3a {
     public static void main(String[] args) {
         MultipleInheritanceClass obj = new MultipleInheritanceClass();
         obj.method1();

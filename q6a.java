@@ -1,6 +1,6 @@
 package it201;
 
-public class q29 {
+public class q6a {
     public static void main(String[] args) {
         String str = "Hello World";
 

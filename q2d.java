@@ -24,7 +24,7 @@ class D extends C implements A, B {
     }
 }
 
-public class q18 {
+public class q2d {
     public static void main(String[] args) {
         D obj = new D();
         obj.methodA();

@@ -10,7 +10,7 @@ class DerivedClass extends BaseClass {
     // Cannot override final method
 }
 
-public class q23 {
+public class q4b {
     public static void main(String[] args) {
         DerivedClass obj = new DerivedClass();
         obj.display();
