@@ -1,10 +1,6 @@
 // q41: Runtime polymorphism
-<<<<<<< HEAD:OldSyllabus/q41.java
-package OldSyllabus;
-=======
 package riyab;
 // take user input if required
->>>>>>> 21db775 (Package Change In Rest...):q41.java
 
 class Parent {
     void display() {

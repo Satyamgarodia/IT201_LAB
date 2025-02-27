@@ -1,10 +1,6 @@
 // q60: Create multiple threads that perform different tasks
-<<<<<<< HEAD:OldSyllabus/q60.java
-package OldSyllabus;
-=======
 package riyab;
 // take user input if required
->>>>>>> 21db775 (Package Change In Rest...):q60.java
 
 class Task1 extends Thread {
     public void run() {

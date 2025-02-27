@@ -1,10 +1,6 @@
 // q56: Open file using FileInputStream and display content
-<<<<<<< HEAD:OldSyllabus/q56.java
-package OldSyllabus;
-=======
 package riyab;
 // take user input if required
->>>>>>> 21db775 (Package Change In Rest...):q56.java
 
 import java.io.FileInputStream;
 import java.io.IOException;

@@ -1,10 +1,6 @@
 // q47: Copy constructor effect using constructors
-<<<<<<< HEAD:OldSyllabus/q47.java
-package OldSyllabus;
-=======
 package riyab;
 // take user input if required
->>>>>>> 21db775 (Package Change In Rest...):q47.java
 
 class Demo {
     int x;

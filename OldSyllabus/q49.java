@@ -1,10 +1,6 @@
 // q49: Use of super keyword
-<<<<<<< HEAD:OldSyllabus/q49.java
-package OldSyllabus;
-=======
 package riyab;
 // take user input if required
->>>>>>> 21db775 (Package Change In Rest...):q49.java
 
 class Parent {
     void display() {

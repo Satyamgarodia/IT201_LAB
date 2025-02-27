@@ -1,10 +1,6 @@
 // q51: Immutable class
-<<<<<<< HEAD:OldSyllabus/q51.java
-package OldSyllabus;
-=======
 package riyab;
 // take user input if required
->>>>>>> 21db775 (Package Change In Rest...):q51.java
 
 final class Immutable {
     private final String value;

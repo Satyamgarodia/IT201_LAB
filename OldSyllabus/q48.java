@@ -1,10 +1,6 @@
 // q48: Copy constructor effect without constructors
-<<<<<<< HEAD:OldSyllabus/q48.java
-package OldSyllabus;
-=======
 package riyab;
 // take user input if required
->>>>>>> 21db775 (Package Change In Rest...):q48.java
 
 class Demo {
     int x;

@@ -1,10 +1,6 @@
 // q59: Use join() function with threads
-<<<<<<< HEAD:OldSyllabus/q59.java
-package OldSyllabus;
-=======
 package riyab;
 // take user input if required
->>>>>>> 21db775 (Package Change In Rest...):q59.java
 
 class MyJoinThread extends Thread {
     public void run() {
