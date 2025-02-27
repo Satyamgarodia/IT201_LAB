@@ -28,11 +28,11 @@ public class q1a {
 
         double c = getDoubleInput(scanner, "\nEnter first double:");
         double d = getDoubleInput(scanner, "Enter second double:");
-        System.out.print("Addition of doubles: " + calc.add(c, d)+ "\n");
+        System.out.print("Addition of doubles: " + calc.add(c, d) + "\n");
 
         String e = getStringInput(scanner, "\nEnter first string:");
         String f = getStringInput(scanner, "Enter second string:");
-        System.out.print("Addition of strings: " + calc.add(e, f)+ "\n");
+        System.out.print("Addition of strings: " + calc.add(e, f) + "\n");
     }
 
     private static int getIntegerInput(Scanner scanner, String prompt) {
